@@ -1,0 +1,178 @@
+@import "normalize.css";
+
+body {
+  background: #fff;
+  color: #111;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: none;
+}
+
+:lang(en) {
+  font-kerning: normal;
+}
+
+a {
+  color: #b71c1c;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #555;
+  text-decoration: underline;
+}
+
+a:hover,
+a:active {
+  color: #e53935;
+  text-decoration: underline;
+}
+
+a:hover img {
+  opacity: 0.75;
+}
+
+a:hover,
+a:focus {
+  transition-property: color, background-color;
+  transition-duration: 0.1s, 0.4s;
+}
+
+a:hover img {
+  transition-property: opacity;
+  transition-duration: 0.4s;
+}
+
+a img {
+  border: none;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+iframe {
+  border: none;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+button {
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+legend {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+caption {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table td,
+table th {
+  border: none;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+table th {
+  font-weight: normal;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+[aria-hidden="true"] {
+  speak: none;
+}

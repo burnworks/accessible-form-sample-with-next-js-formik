@@ -1,0 +1,37 @@
+.container {
+  background-color: #f4f7f6;
+}
+
+.header {
+  background-color: #fff;
+  padding: 1rem 2%;
+}
+
+.siteTitle {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.siteTitle a {
+  display: inline-block;
+}
+
+.main {
+  padding: 2rem 2%;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 2rem 2%;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.copyright small {
+  font-size: 80%;
+}

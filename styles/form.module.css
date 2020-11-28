@@ -1,0 +1,129 @@
+.formArea {
+  padding: 5px;
+  padding-bottom: 2rem;
+}
+
+.formHeader {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.formField {
+  margin: 2rem 0;
+}
+
+.formField fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.formFieldName {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  width: 100%;
+  padding-bottom: 0.6em;
+}
+
+.formFieldInput {
+  margin-top: 0.6em;
+}
+
+.formFieldInput ul {
+  margin: 0;
+  padding: 0;
+}
+
+.formFieldInput li {
+  list-style: none;
+  padding: 0.2em 0;
+}
+
+.formFieldInput
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="image"]),
+.formFieldInput textarea {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  width: 40em;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.formFieldInput textarea {
+  height: 10em;
+}
+
+.formFieldInput textarea[name="address"] {
+  height: 4em;
+}
+
+.formFieldInput input + label {
+  display: inline-block;
+  padding-left: 0.5em;
+}
+
+.formFieldInput
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="image"]):focus,
+.formFieldInput textarea:focus {
+  background-color: #fffde7;
+}
+
+.formSubmit button {
+  display: inline-block;
+  position: relative;
+  padding: 20px 60px;
+  background: #d50000;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.125rem;
+}
+
+.formSubmit button:focus,
+.formSubmit button:hover {
+  box-shadow: 2px 0 16px rgba(20, 21, 23, 0.2);
+  cursor: pointer;
+}
+
+.formSubmit button[disabled] {
+  background: #ddd;
+  color: #111;
+}
+
+.formSubmit button[disabled]:hover {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.formInputRequisite {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #fff;
+  background-color: #d50000;
+  margin-left: 0.5rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.invalidForm {
+  display: block;
+  color: #fff;
+  background-color: #d50000;
+  width: fit-content;
+  margin-top: 0.4em;
+  padding: 2px 0.6em 2px 2.2em;
+  border-radius: 4px;
+  position: relative;
+}
+
+.invalidForm svg {
+  position: absolute;
+  width: 1em;
+  top: 0;
+  bottom: 0;
+  left: 0.6em;
+  margin: auto 0;
+}
